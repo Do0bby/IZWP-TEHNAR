@@ -24,9 +24,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setDirtyMark(false)
-                .setLeft("20.833333333333332em")
+                .setLeft("21.666666666666668em")
                 .setTop("20.833333333333332em")
-                .setWidth("22.083333333333332em")
+                .setWidth("22.916666666666668em")
                 .setHeight("6.166666666666667em")
                 .setCaption("Hello")
                 .setCustomStyle({
@@ -34,6 +34,10 @@ xui.Class('App', 'xui.Module',{
                         "color":"#191970",
                         "background-color":"#191970",
                         "font-style":"normal"
+                    },
+                    "BACKGROUND":{
+                        "color":"#00008B",
+                        "background-color":"#FFFFFF"
                     }
                 })
             );
@@ -47,7 +51,7 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("16.333333333333332em")
                 .setLabelSize("8em")
                 .setLabelCaption("Your name:")
-                .setValue("Hulio")
+                .setValue("Enter here")
             );
             
             return children;
