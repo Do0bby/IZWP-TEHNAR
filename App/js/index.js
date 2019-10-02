@@ -31,13 +31,13 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("Hello")
                 .setCustomStyle({
                     "KEY":{
-                        "color":"#191970",
+                        "color":"#FFFFFF",
                         "background-color":"#191970",
                         "font-style":"normal"
                     },
                     "BACKGROUND":{
                         "color":"#00008B",
-                        "background-color":"#FFFFFF"
+                        "background-color":"#00008B"
                     }
                 })
             );
